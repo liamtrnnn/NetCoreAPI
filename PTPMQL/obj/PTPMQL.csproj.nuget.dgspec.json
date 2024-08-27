@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lam Tran\\OneDrive\\Máy tính\\PTPMQL\\PTPMQL.csproj": {}
+    "C:\\Users\\Lam Tran\\OneDrive\\Máy tính\\Demo\\PTPMQL\\PTPMQL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lam Tran\\OneDrive\\Máy tính\\PTPMQL\\PTPMQL.csproj": {
+    "C:\\Users\\Lam Tran\\OneDrive\\Máy tính\\Demo\\PTPMQL\\PTPMQL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lam Tran\\OneDrive\\Máy tính\\PTPMQL\\PTPMQL.csproj",
+        "projectUniqueName": "C:\\Users\\Lam Tran\\OneDrive\\Máy tính\\Demo\\PTPMQL\\PTPMQL.csproj",
         "projectName": "PTPMQL",
-        "projectPath": "C:\\Users\\Lam Tran\\OneDrive\\Máy tính\\PTPMQL\\PTPMQL.csproj",
+        "projectPath": "C:\\Users\\Lam Tran\\OneDrive\\Máy tính\\Demo\\PTPMQL\\PTPMQL.csproj",
         "packagesPath": "C:\\Users\\Lam Tran\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lam Tran\\OneDrive\\Máy tính\\PTPMQL\\obj\\",
+        "outputPath": "C:\\Users\\Lam Tran\\OneDrive\\Máy tính\\Demo\\PTPMQL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Lam Tran\\AppData\\Roaming\\NuGet\\NuGet.Config"
