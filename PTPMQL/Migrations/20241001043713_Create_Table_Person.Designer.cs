@@ -10,14 +10,32 @@ using PTPMQL.Data;
 namespace PTPMQL.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20240924042250_Create_table_student")]
-    partial class Create_table_student
+    [Migration("20241001043713_Create_Table_Person")]
+    partial class Create_Table_Person
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "8.0.8");
+
+            modelBuilder.Entity("PTPMQL.Models.Person", b =>
+                {
+                    b.Property<string>("IDCard")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Address")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("HoTen")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("IDCard");
+
+                    b.ToTable("Person");
+                });
 
             modelBuilder.Entity("PTPMQL.Models.Student", b =>
                 {
